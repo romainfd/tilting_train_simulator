@@ -1,0 +1,1 @@
+wc -l "acceleration - RP.csv" "devers - RP.csv" | awk '{ printf "File %-12s has %7d lines\n", $2, $1 }' | head -n 2
